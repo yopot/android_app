@@ -1,15 +1,17 @@
+// list of plugin required for building this project
 plugins {
   id 'com.android.application'
 }
 
+// settings required for android plugin
 android {
-    namespace 'com.name.myapp'
+    namespace 'com.name.myapp' //directory of java class files
 
-    compileSdkVersion 30
+    compileSdkVersion 30 //compile app for this version of API
     defaultConfig {
-        applicationId 'com.name.myapp'
-        minSdkVersion 16
-        targetSdkVersion 30
+        applicationId 'com.name.myapp' //set id for app
+        minSdkVersion 16 //minimum API this app supports
+        targetSdkVersion 30 //compile for this API
         versionCode 1
         versionName "1.0"
     }
